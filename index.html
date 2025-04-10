@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class-2</title>
-  
+
 </head>
 
 <body>
-<a href="https://www.google.com/" target="_blank">Google</a><br> <br>
+    <!-- <a href="https://www.google.com/" target="_blank">Google</a><br> <br>
 <a href="https://www.youtube.com/" target="_blank">Youtube</a><br> <br>
 <a href="https://www.facebook.com" target="_blank">Facebook</a><br> <br>
   <h1>this is <span>heading -1</span></h1>
@@ -38,14 +39,14 @@
     <li>this is unorcer list</li> 
 </ul>
 <!-- this is an image of bee -->
-<!-- <img src="bee.jpg" alt="Bee" height="300px"> -->
-
+    <!-- <img src="bee.jpg" alt="Bee" height="300px"> -->
+    <!-- 
 <form >
 <label for="name" >Name: </label>
 <input type="text" placeholder="Enter your name" required> <br> <br>
 <label > Password: </label><input type="password" placeholder="password" required> <br><br>
 <label for="email">email</label> <input type="email">
-<!-- <input type="submit"> -->
+
 <button>Submit</button> <br> <br>
 <label for="">Gender</label>
 <br> <br>
@@ -84,47 +85,67 @@
 <span>this is span</span>
 <img src="https://cdn.pixabay.com/photo/2022/10/12/20/31/flower-7517474_1280.jpg" alt="">
 
+ -->
 
 
+    <style>
+        table {
+            border-collapse: collapse;
 
-<style>
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      font-family: Arial, sans-serif;
-    }
-    th, td {
-      border: 1px solid #ddd;
-      padding: 8px;
-      text-align: left;
-    }
-    th {
-      background-color: #f2f2f2;
-    }
-  </style>
-  
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Roll</th>
-        <th>Dept</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Sadia</td>
-        <td>103</td>
-        <td>CSE</td>
-      </tr>
-      <tr>
-        <td>Rafi</td>
-        <td>104</td>
-        <td>EEE</td>
-      </tr>
-    </tbody>
-  </table>
-  
+            font-family: Arial, sans-serif;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+        .theader{
+            font-weight: 800;
+        }
+    </style>
+
+    <table>
+        <tr>
+            <td class="theader">Name</td>
+            <td class="theader">Roll</td>
+            <td class="theader">Deartment</td>
+            <td class="theader">Subject</td>
+            <td class="theader">University</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>1</td>
+            <td>SE</td>
+            <td>CS</td>
+            <td>IU</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td rowspan="3">2</td>
+            <td>CSE</td>
+            <td colspan="2">CSE</td>
+            
+        </tr>
+        <tr>
+            <td>V</td>
+            <td>SE</td>
+            <td>CS</td>
+            <td>DI</td>
+        </tr>
+        <tr>
+            <td>M</td>
+            <td>CE</td>
+            <td>CE</td>
+            <td>DU</td>
+        </tr>
+    </table>
+
 </body>
-</html>
 
+</html>
